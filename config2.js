@@ -285,12 +285,12 @@ var config = {
             hidden: false,
             title: 'Actividad sísmica',
             image: '',
-            description: 'Visualización del enjambre sismíco del 19 de septiembre de 2021.<br>El tamaño indica la intensidad, y el color la profundidad',
+            description: 'Visualización del enjambre sismíco del 19 de septiembre de 2021.<br>El tamaño indica la intensidad (a mayor diámetro, mayor intensidad), y el color la profundidad (los tonos amarillos son los más próximos a la superficie y a medida que se oscurecen y van cambiando a rojo oscuro/morado la profundidad es mayor).',
             location: {
                 center: [-17.88727, 28.61047],
                 zoom: 12.82,
-                pitch: 0.00,
-                bearing: 0
+                pitch: 60.00,
+                bearing: 51.2
             },
             onChapterEnter: [
                 {
