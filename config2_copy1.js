@@ -27,7 +27,7 @@ var config = {
 
             ],
             onChapterExit: [
-
+                
             ]
         },
         {
@@ -73,7 +73,12 @@ var config = {
                 {
                     layer: 'fajana-21092021',
                     opacity: 0
+                },
+                {
+                    layer: 'fajana-21092021L',
+                    opacity: 0.8
                 }
+
             ]
         },
         {
@@ -82,7 +87,7 @@ var config = {
             hidden: false,
             title: 'Proceso volcánico Cumbre Vieja',
             image: '',
-            description: '<b>SEMANA 1</b><br>En la primera semana el incremento de superficie afectada fue del 219%, con 338.3 ha, afectando al núcleo de población de Todoque y llegando al mar.',
+            description: 'En la primera semana el incremento de superficie afectada fue del 219%, con 338.3 ha, afectando al núcleo de población de Todoque y llegando al mar.',
             location: {
                 center: [-17.88727, 28.61047],
                 zoom: 12.82,
@@ -91,21 +96,21 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'fajana-21092021L',
-                    opacity: 0.8
-                },
-                {
                     layer: 'fajana-29092021',
                     opacity: 0.5
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'fajana-21092021L',
+                    layer: 'fajana-29092021',
                     opacity: 0
                 },
                 {
-                    layer: 'fajana-29092021',
+                    layer: 'fajana-29092021L',
+                    opacity: 0.8
+                },
+                {
+                    layer: 'fajana-21092021L',
                     opacity: 0
                 }
             ]
@@ -116,7 +121,7 @@ var config = {
             hidden: false,
             title: 'Proceso volcánico Cumbre Vieja',
             image: '',
-            description: '<b>SEMANA 2</b><br>En la segunda semana la erupción ya tenía tres frentes llegando a la costa, con una superficie afectada de 656 ha.<br>En este momento ya se ha producido el principal aporte de material a la <a href="https://es.wikipedia.org/wiki/Fajana" target="new">fajana</a>.',
+            description: 'En la segunda semana la erupción ya tenía tres frentes llegando a la costa, con una superficie afectada de 656 ha.<br>En este momento ya se ha producido el principal aporte de material a la <a href="https://es.wikipedia.org/wiki/Fajana" target="new">fajana</a>.',
             location: {
                 center: [-17.91549, 28.60885],
                 zoom: 13.45,
@@ -125,21 +130,21 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'fajana-29092021L',
-                    opacity: 0.8
-                },
-                {
                     layer: 'fajana-12102021',
                     opacity: 0.5
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'fajana-29092021L',
+                    layer: 'fajana-12102021',
                     opacity: 0
                 },
                 {
-                    layer: 'fajana-12102021',
+                    layer: 'fajana-12102021L',
+                    opacity: 0.8
+                },
+                {
+                    layer: 'fajana-29092021L',
                     opacity: 0
                 }
             ]
@@ -150,7 +155,7 @@ var config = {
             hidden: false,
             title: 'Proceso volcánico Cumbre Vieja',
             image: '',
-            description: '<b>SEMANA 3</b><br>El principal aporte lávico de las coladas es ahora por la vertiente norte, con un dos nuevos brazos: uno que prácticamente llega al mar y otro que avanza por La Laguna.',
+            description: 'SEMANA 3',
             location: {
                 center: [-17.91549, 28.60885],
                 zoom: 13.45,
@@ -159,21 +164,21 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'fajana-12102021L',
-                    opacity: 0.8
-                },
-                {
                     layer: 'fajana-22102021',
                     opacity: 0.5
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'fajana-12102021L',
+                    layer: 'fajana-22102021',
                     opacity: 0
                 },
                 {
-                    layer: 'fajana-22102021',
+                    layer: 'fajana-22102021L',
+                    opacity: 0.8
+                },
+                {
+                    layer: 'fajana-12102021L',
                     opacity: 0
                 }
             ]
@@ -184,7 +189,7 @@ var config = {
             hidden: false,
             title: 'Proceso volcánico Cumbre Vieja',
             image: '',
-            description: '<b>SEMANA 4</b><br>La variación en superficie afectada durante la semana se concentra en la vertiente sur.',
+            description: 'SEMANA 4',
             location: {
                 center: [-17.90904, 28.61110],
                 zoom: 12.54,
@@ -193,21 +198,21 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'fajana-22102021L',
-                    opacity: 0.8
-                },
-                {
                     layer: 'fajana-29102021',
                     opacity: 0.5
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'fajana-22102021L',
+                    layer: 'fajana-29102021',
                     opacity: 0
                 },
                 {
-                    layer: 'fajana-29102021',
+                    layer: 'fajana-29102021L',
+                    opacity: 0.8
+                },
+                {
+                    layer: 'fajana-22102021L',
                     opacity: 0
                 }
             ]
@@ -218,7 +223,7 @@ var config = {
             hidden: false,
             title: 'Proceso volcánico Cumbre Vieja',
             image: '',
-            description: '<b>SEMANA 5</b><br>El avance continúa por la vertiente sur, y el brazo más meridional prácticamente llega al mar por la playa del Charcón',
+            description: 'SEMANA 5',
             location: {
                 center: [-17.91549, 28.60885],
                 zoom: 13.45,
@@ -227,21 +232,21 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'fajana-29102021L',
-                    opacity: 0.8
-                },
-                {
                     layer: 'fajana-06112021',
                     opacity: 0.5
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'fajana-29102021L',
+                    layer: 'fajana-06112021',
                     opacity: 0
                 },
                 {
-                    layer: 'fajana-06112021',
+                    layer: 'fajana-06112021L',
+                    opacity: 0.8
+                },
+                {
+                    layer: 'fajana-29102021L',
                     opacity: 0
                 }
             ]
@@ -252,7 +257,7 @@ var config = {
             hidden: false,
             title: 'Proceso volcánico Cumbre Vieja',
             image: '',
-            description: '<b>SEMANA 6</b><br>La fajana vuelve a crecer, uniéndose los dos brazos meridionales en uno solo.',
+            description: 'SEMANA 6',
             location: {
                 center: [-17.91549, 28.60885],
                 zoom: 13.45,
@@ -261,70 +266,21 @@ var config = {
             },
             onChapterEnter: [
                 {
-                    layer: 'fajana-06112021L',
-                    opacity: 0.8
-                },
-                {
                     layer: 'fajana-15112021',
                     opacity: 0.5
                 }
             ],
             onChapterExit: [
                 {
-                    layer: 'fajana-06112021L',
-                    opacity: 0
-                },
-                {
                     layer: 'fajana-15112021',
                     opacity: 0
-                }
-            ]
-        },{
-            id: 'semana0_2',
-            alignment: 'right',
-            hidden: false,
-            title: 'Actividad sísmica',
-            image: '',
-            description: 'Visualización del enjambre sismíco del 19 de septiembre de 2021.<br>El tamaño indica la intensidad, y el color la profundidad',
-            location: {
-                center: [-17.88727, 28.61047],
-                zoom: 12.82,
-                pitch: 0.00,
-                bearing: 0
-            },
-            onChapterEnter: [
-                {
-                    layer: 'fajana-21092021',
-                    opacity: 0.5
                 },
                 {
-                    layer: 'fajana-21092021L',
+                    layer: 'fajana-15112021L',
                     opacity: 0.8
                 },
                 {
-                    layer: 'satelite',
-                    opacity: 1
-                },
-                {
-                    layer: 'sismos-19sept',
-                    opacity: 1
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'fajana-21092021',
-                    opacity: 0
-                },
-                {
-                    layer: 'fajana-21092021L',
-                    opacity: 0
-                },
-                {
-                    layer: 'satelite',
-                    opacity: 0
-                },
-                {
-                    layer: 'sismos-19sept',
+                    layer: 'fajana-06112021L',
                     opacity: 0
                 }
             ]
