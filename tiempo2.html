@@ -88,7 +88,7 @@
         </div>
       </div>
       <div class='session' id='sliderbar'>
-        <h2>Fecha: <label id='active-day'>xxx</label></h2>
+        <h2>Fecha: <label id='active-day'>Dia 1</label></h2>
         <input id='slider' class='row' type='range' min='1' max='60' step='1' value='1' />
       </div>
     </div>
@@ -105,7 +105,14 @@ const map = new mapboxgl.Map({
 ///////////
 map.on('load', () => {
   map.addControl(new mapboxgl.FullscreenControl({container: document.querySelector('body')}));
-
+  map.addSource('mapbox-dem', {
+'type': 'raster-dem',
+'url': 'mapbox://mapbox.mapbox-terrain-dem-v1',
+'tileSize': 512,
+'maxzoom': 14
+});
+// add the DEM source as a terrain layer with exaggerated height
+map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.5 });
 
 
   ///////
@@ -150,7 +157,8 @@ map.on('load', () => {
       ],
       'circle-opacity': 0.8
     }
-    //,filter: ['==', ['number', ['get', 'day']], 12]
+    ,filter: ['==', ['number', ['get', 'Dia']], 1]
+    
   });
   
   document.getElementById('slider').addEventListener('input', (event) => {
